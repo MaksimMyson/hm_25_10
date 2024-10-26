@@ -1,0 +1,41 @@
+header, nav, aside, main, footer {
+    padding: 10px;
+    margin: 10px;
+    border: 1px solid #4b53e6;
+  }
+  header, footer {
+    background-color: #2d7ac7;
+    clear: both;
+    text-align: center;
+  }
+  nav {
+    background-color: #370e79;
+    clear: both;
+    text-align: center;
+  }
+  aside {
+    float: left;
+    width: 20%;
+    background-color: #04ed79;
+  }
+  #left-aside1, #left-aside2 {
+    clear: left;
+  }
+  #right-aside {
+    float: right;
+    width: 20%;
+    background-color: #4f13f5;
+    writing-mode: vertical-lr;
+    text-orientation: upright;
+  }
+  main {
+    float: left;
+    width: 50%;
+    background-color: #e7c117;
+  }
+  .section {
+    border: 1px solid #0d05ef;
+    padding: 10px;
+    margin: 10px 0;
+  }
+  
